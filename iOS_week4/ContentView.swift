@@ -100,6 +100,7 @@ struct ContactRow: View {
                 .cornerRadius(50)
             VStack(alignment: .leading){
                 Text(name)
+                    .font(.system(size: 21, weight: .medium, design: .default))
                 Text(phone)
             }
         }
